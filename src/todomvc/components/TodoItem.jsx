@@ -26,4 +26,10 @@ class TodoItem extends React.Component {
   }
 }
 
+TodoItem.propTypes = {
+  onCheck: React.PropTypes.func.isRequired,
+  onRemove: React.PropTypes.func.isRequired,
+  data: React.PropTypes.object
+};
+
 export default TodoItem;
