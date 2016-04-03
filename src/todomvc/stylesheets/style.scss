@@ -39,16 +39,8 @@ ul,li{list-style:none;}
   .finished{
     color: #aaa;
 
-    &::after{
-      position: absolute;
-      content: '';
-      height:1px;
-      background-color: #aaa;
-      top:0;
-      bottom:0;
-      left:20px;
-      right:30px;
-      margin:auto;
+    span{
+      text-decoration: line-through;
     }
   }
 
